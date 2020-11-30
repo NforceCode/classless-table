@@ -55,13 +55,12 @@ table > :not(thead) > tr:nth-child(odd) > td:nth-child(odd) {
   background-color: #DBDBDB;
 }
 
-table > :not(thead) > tr:nth-child(odd) > td:nth-child(even) {
+table > :not(thead) > tr:nth-child(odd) > td:nth-child(even),
+table > :not(thead) > tr:nth-child(even) > td:nth-child(odd) {
   background-color: #E7E7E7;  
 }
 
-table > :not(thead) > tr:nth-child(even) > td:nth-child(odd) {
-  background-color: #ECECEC;
-}
+
 
 table > :not(thead) > tr:nth-child(even) > td:nth-child(even) {
   background-color: #F3F3F3;  
